@@ -1,0 +1,44 @@
+{
+	"name": "hnfsstore",
+	"scripts": {
+		"dev": "solid-start dev --port 3000",
+		"start": "solid-start start --port 3000",
+		"build": "solid-start build",
+		"lint": "eslint --fix \"**/*.{ts,tsx,js,jsx}\""
+	},
+	"type": "module",
+	"devDependencies": {
+		"@types/node": "^20.3.1",
+		"@typescript-eslint/eslint-plugin": "^5.59.11",
+		"@typescript-eslint/parser": "^5.59.11",
+		"autoprefixer": "^10.4.14",
+		"eslint": "^8.43.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-solid": "^0.12.1",
+		"eslint-plugin-tailwindcss": "^3.12.1",
+		"postcss": "^8.4.24",
+		"solid-start-node": "^0.2.26",
+		"solid-start-vercel": "^0.2.26",
+		"tailwindcss": "^3.2.7",
+		"typescript": "^5.1.3",
+		"vite": "^4.3.9"
+	},
+	"dependencies": {
+		"@fontsource/inter": "^5.0.3",
+		"@kobalte/core": "^0.9.6",
+		"@solid-primitives/keyboard": "^1.2.3",
+		"@solidjs/meta": "^0.28.5",
+		"@solidjs/router": "^0.8.2",
+		"class-variance-authority": "^0.6.0",
+		"clsx": "^1.2.1",
+		"solid-js": "^1.7.6",
+		"solid-start": "^0.2.26",
+		"tailwind-merge": "^1.13.2",
+		"tailwindcss-animate": "^1.0.6",
+		"undici": "^5.22.1",
+		"zod": "^3.21.4"
+	},
+	"engines": {
+		"node": ">=16"
+	}
+}
