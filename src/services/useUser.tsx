@@ -33,7 +33,7 @@ export const useUser = () =>
 								role: "Admin",
 								username: "taraarts",
 							}),
-						8000
+						2000
 					);
 				}
 			);

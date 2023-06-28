@@ -4,7 +4,7 @@ import vercel from "solid-start-vercel";
 
 export default defineConfig(() => {
 	return {
-		plugins: [solid({ adapter: vercel({ edge: true }) })],
+		plugins: [solid()],
 		ssr: { noExternal: ["@kobalte/core"] },
 	};
 });

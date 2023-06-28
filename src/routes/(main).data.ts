@@ -32,7 +32,7 @@ export const useUser = () =>
 								role: "Admin",
 								username: "tarasrts",
 							}),
-						100
+						10
 					);
 				}
 			);
@@ -46,7 +46,7 @@ export const useUser = () =>
 export const useShoppingSession = () =>
 	createServerData$(
 		async (_) => {
-			return new Promise((resolve) => setTimeout(() => resolve(null), 100));
+			return new Promise((resolve) => setTimeout(() => resolve(null), 10));
 		},
 		{
 			deferStream: true,
